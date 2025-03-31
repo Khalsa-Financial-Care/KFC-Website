@@ -109,6 +109,9 @@ footer {
     font-size: 20px;
     font-weight: bold;
 
+    display: flex;
+    justify-content: space-between;
+
     color: var(--white);
 }
 

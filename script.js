@@ -24,6 +24,8 @@
 </nav>
  */
 
+// Navbar
+
 const navbar = document.querySelector('nav');
 navbar.innerHTML = "";
 
@@ -63,3 +65,8 @@ navLinks.appendChild(createNavLink('contact.html', 'Contact'));
 
 navbar.appendChild(navTop);
 navbar.appendChild(navLinks);
+
+// Footer
+
+const footer = document.querySelector('footer');
+footer.innerHTML = "<span>&copy; Ishbir Singh</span> <span>Khalsa Financial Care</span>";
