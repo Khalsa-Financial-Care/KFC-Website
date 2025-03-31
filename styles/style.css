@@ -105,6 +105,7 @@ footer {
     background-color: var(--green);
 
     padding: 20px;
+    padding-right: 40px;
 
     font-size: 20px;
     font-weight: bold;
