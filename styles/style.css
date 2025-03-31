@@ -5,14 +5,14 @@
 }
 
 body {
-    --background: #f0f4f7; /* Neutral Background */
-    --green: #008631; /* Header Color */
-    --darkGreen: #006400; /* Dark Green Color */
-    --midGreen: #00c151; /* Mid Green Color */
+    --background: #f0f4f7;
+    --green: #008631;
+    --darkGreen: #006400;
+    --midGreen: #00c151;
     --lightGreen: #E0F8E4;
-    --lightBlue: #E0F2F1; /* Light Green Color */
+    --lightBlue: #E0F2F1;
     --white: whitesmoke;
-    --yellow: #f9c74f; /* Yellow Color */
+    --yellow: #f9c74f;
 
     --textColor: #3c3c3c;
 
@@ -89,6 +89,8 @@ nav {
 
     transition: 0.5s;
 }
+
+/* Main Site */
 
 .mainContainer {
     display: flex;
