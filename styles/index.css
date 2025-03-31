@@ -1,0 +1,91 @@
+.section {
+    width: 100vw;
+
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+}
+
+.sectionTitle {
+    font-size: 40px;
+    font-weight: bold;
+
+    color: var(--darkGreen);
+}
+
+.sectionSubtitle {
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-top: 10px;
+
+    color: var(--darkGreen);
+}
+
+.sectionContent {
+    margin-top: 15px;
+
+    font-size: 20px;
+
+    line-height: 1.7;
+
+    display: flex;
+    align-items: center;
+}
+
+.sectionContentListItem {
+    list-style: none;
+}
+
+.sectionContentImage {
+    max-height: 200px;
+
+    border-radius: 15px;
+
+    margin-right: 20px;
+}
+
+.sectionContentImageText {
+    line-height: 1.5;
+}
+
+.sectionLG {
+    background-color: var(--lightGreen);
+}
+
+.sectionWH {
+    background-color: transparent;
+}
+
+.sectionLB {
+    background-color: var(--lightBlue);
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .section {
+        padding: 5vh 5vw;
+    }
+
+    .sectionTitle {
+        font-size: 30px;
+    }
+
+    .sectionSubtitle {
+        font-size: 15px;
+    }
+
+    .sectionContent {
+        font-size: 15px;
+
+        flex-direction: column;
+    }
+
+    .sectionContentImage {
+        max-height: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
