@@ -69,4 +69,4 @@ navbar.appendChild(navLinks);
 // Footer
 
 const footer = document.querySelector('footer');
-footer.innerHTML = "<span>&copy; Ishbir Singh</span> <span>Khalsa Financial Care</span>";
+footer.innerHTML = "<span>&copy; Ishbir Singh & Pahul Virk</span> <span>Khalsa Financial Care</span>";
