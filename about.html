@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>About — Khalsa Financial Care</title>
+<meta name="description" content="Learn about Khalsa Financial Care's mission to empower new Punjabi immigrants with financial knowledge and tools to thrive in America." />
+<meta property="og:title" content="About Khalsa Financial Care" />
+<meta property="og:description" content="Our mission, vision, and values." />
+<link rel="icon" href="assets/kfc-logo.png" />
+<link rel="stylesheet" href="styles.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: {
+    colors: {
+      background: 'var(--background)', foreground: 'var(--foreground)',
+      card: { DEFAULT: 'var(--card)', foreground: 'var(--card-foreground)' },
+      primary: { DEFAULT: 'var(--primary)', foreground: 'var(--primary-foreground)' },
+      secondary: { DEFAULT: 'var(--secondary)', foreground: 'var(--secondary-foreground)' },
+      muted: { DEFAULT: 'var(--muted)', foreground: 'var(--muted-foreground)' },
+      accent: { DEFAULT: 'var(--accent)', foreground: 'var(--accent-foreground)' },
+      border: 'var(--border)', input: 'var(--input)', ring: 'var(--ring)',
+    },
+    boxShadow: { elegant: 'var(--shadow-elegant)', card: 'var(--shadow-card)' },
+    backgroundImage: { 'gradient-primary': 'var(--gradient-primary)', 'gradient-hero': 'var(--gradient-hero)', 'gradient-subtle': 'var(--gradient-subtle)' }
+  }}}
+</script>
+</head>
+<body class="flex min-h-screen flex-col bg-background">
+<div id="site-header"></div>
+<main class="flex-1">
+
+  <section class="bg-gradient-hero py-20 text-primary-foreground">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold sm:text-5xl">Our Mission</h1>
+      <p class="mx-auto mt-4 max-w-2xl text-primary-foreground/85">Empowering new Punjabi immigrants with the financial knowledge and tools necessary to thrive in America.</p>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container mx-auto max-w-4xl px-4">
+      <div class="text-lg text-muted-foreground space-y-4">
+        <p>At <strong class="text-foreground">Khalsa Financial Care</strong>, we believe that financial literacy is one of the most powerful tools an immigrant can carry into a new country. Yet for many new Punjabi families arriving in America, the U.S. financial system can feel intimidating, confusing, and inaccessible.</p>
+        <p>We exist to change that. Through free workshops, easy-to-understand resources, and one-on-one guidance, we help immigrants navigate everything from opening their first bank account to planning for retirement — so they can build generational stability and pursue the American dream on their own terms.</p>
+        <p>We envision a community where every new immigrant is equipped with the knowledge to make informed financial decisions. By providing education on essential topics such as budgeting, saving, investing, and retirement planning, we aim to bridge the knowledge gap and foster financial independence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-secondary/40 py-20">
+    <div class="container mx-auto px-4">
+      <div class="mx-auto max-w-2xl text-center">
+        <span class="text-sm font-semibold uppercase tracking-wider text-primary">Our Values</span>
+        <h2 class="mt-3 text-3xl font-bold sm:text-4xl">What Guides Our Work</h2>
+      </div>
+      <div class="mt-12 grid gap-6 md:grid-cols-3">
+        <div class="rounded-2xl bg-card p-7 shadow-card">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground"><i data-lucide="heart" class="h-6 w-6"></i></div>
+          <h3 class="mt-4 text-lg font-semibold">Compassion</h3>
+          <p class="mt-2 text-sm text-muted-foreground">We treat every family with the respect and patience they deserve, no matter where they're starting from.</p>
+        </div>
+        <div class="rounded-2xl bg-card p-7 shadow-card">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground"><i data-lucide="target" class="h-6 w-6"></i></div>
+          <h3 class="mt-4 text-lg font-semibold">Empowerment</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Our goal isn't to manage your money — it's to give you the confidence to manage it yourself.</p>
+        </div>
+        <div class="rounded-2xl bg-card p-7 shadow-card">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground"><i data-lucide="globe" class="h-6 w-6"></i></div>
+          <h3 class="mt-4 text-lg font-semibold">Community</h3>
+          <p class="mt-2 text-sm text-muted-foreground">We're rooted in the Punjabi-American community, and we lift each other up.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container mx-auto max-w-3xl px-4">
+      <h2 class="text-3xl font-bold sm:text-4xl">What We Stand For</h2>
+      <ul class="mt-8 space-y-3">
+        <li class="flex gap-3 rounded-xl border border-border bg-card p-4 shadow-card"><i data-lucide="check-circle-2" class="mt-0.5 h-5 w-5 shrink-0 text-primary"></i><span class="text-sm text-foreground">Free financial education — always, for everyone in the community</span></li>
+        <li class="flex gap-3 rounded-xl border border-border bg-card p-4 shadow-card"><i data-lucide="check-circle-2" class="mt-0.5 h-5 w-5 shrink-0 text-primary"></i><span class="text-sm text-foreground">Culturally relevant teaching in Punjabi and English</span></li>
+        <li class="flex gap-3 rounded-xl border border-border bg-card p-4 shadow-card"><i data-lucide="check-circle-2" class="mt-0.5 h-5 w-5 shrink-0 text-primary"></i><span class="text-sm text-foreground">Confidential one-on-one guidance, no judgement</span></li>
+        <li class="flex gap-3 rounded-xl border border-border bg-card p-4 shadow-card"><i data-lucide="check-circle-2" class="mt-0.5 h-5 w-5 shrink-0 text-primary"></i><span class="text-sm text-foreground">Practical, real-world tools you can use the same day</span></li>
+        <li class="flex gap-3 rounded-xl border border-border bg-card p-4 shadow-card"><i data-lucide="check-circle-2" class="mt-0.5 h-5 w-5 shrink-0 text-primary"></i><span class="text-sm text-foreground">Long-term financial independence over short-term wins</span></li>
+        <li class="flex gap-3 rounded-xl border border-border bg-card p-4 shadow-card"><i data-lucide="check-circle-2" class="mt-0.5 h-5 w-5 shrink-0 text-primary"></i><span class="text-sm text-foreground">Service rooted in Sikh values of seva (selfless service)</span></li>
+      </ul>
+      <div class="mt-10 text-center">
+        <a href="founders.html" class="inline-flex items-center gap-2 rounded-lg bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-card">
+          Meet The Founders <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<div id="site-footer"></div>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="site.js"></script>
+</body>
+</html>

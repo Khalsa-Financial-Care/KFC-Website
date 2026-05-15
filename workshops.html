@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Workshops — Khalsa Financial Care</title>
+<meta name="description" content="Free interactive financial literacy workshops for the Punjabi immigrant community — covering budgeting, investing, credit, retirement, and more." />
+<meta property="og:title" content="Free Financial Workshops — Khalsa Financial Care" />
+<meta property="og:description" content="Interactive sessions tailored to our community." />
+<link rel="icon" href="assets/kfc-logo.png" />
+<link rel="stylesheet" href="styles.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: {
+    colors: {
+      background: 'var(--background)', foreground: 'var(--foreground)',
+      card: { DEFAULT: 'var(--card)', foreground: 'var(--card-foreground)' },
+      primary: { DEFAULT: 'var(--primary)', foreground: 'var(--primary-foreground)' },
+      secondary: { DEFAULT: 'var(--secondary)', foreground: 'var(--secondary-foreground)' },
+      muted: { DEFAULT: 'var(--muted)', foreground: 'var(--muted-foreground)' },
+      accent: { DEFAULT: 'var(--accent)', foreground: 'var(--accent-foreground)' },
+      border: 'var(--border)', input: 'var(--input)', ring: 'var(--ring)',
+    },
+    boxShadow: { elegant: 'var(--shadow-elegant)', card: 'var(--shadow-card)' },
+    backgroundImage: { 'gradient-primary': 'var(--gradient-primary)', 'gradient-hero': 'var(--gradient-hero)', 'gradient-subtle': 'var(--gradient-subtle)' }
+  }}}
+</script>
+</head>
+<body class="flex min-h-screen flex-col bg-background">
+<div id="site-header"></div>
+<main class="flex-1">
+
+  <section class="bg-gradient-hero py-20 text-primary-foreground">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold sm:text-5xl">Workshops</h1>
+      <p class="mx-auto mt-4 max-w-2xl text-primary-foreground/85">Interactive financial literacy sessions, tailored to the needs of our community — and always 100% free.</p>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container mx-auto max-w-4xl px-4">
+      <p class="text-muted-foreground">We host regular workshops covering a range of financial topics, specifically tailored to meet the needs of the Punjabi immigrant community. These sessions are interactive, ensuring participants gain practical knowledge they can apply immediately. Workshops are delivered in Punjabi and English, and attendees are encouraged to bring their real-life financial questions.</p>
+    </div>
+  </section>
+
+  <section class="bg-secondary/40 py-20">
+    <div class="container mx-auto px-4">
+      <div class="mx-auto max-w-2xl text-center">
+        <span class="text-sm font-semibold uppercase tracking-wider text-primary">What We Cover</span>
+        <h2 class="mt-3 text-3xl font-bold sm:text-4xl">Topics & Curriculum</h2>
+      </div>
+      <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="rounded-2xl border border-border bg-card p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-elegant">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground"><i data-lucide="piggy-bank" class="h-6 w-6"></i></div>
+          <h3 class="mt-5 text-lg font-semibold">Budgeting & Saving</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Build a household budget, set up an emergency fund, and stretch every paycheck further.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-elegant">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground"><i data-lucide="line-chart" class="h-6 w-6"></i></div>
+          <h3 class="mt-5 text-lg font-semibold">Investing Basics</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Understand stocks, index funds, and how to grow long-term wealth in the U.S. market.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-elegant">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground"><i data-lucide="shield-check" class="h-6 w-6"></i></div>
+          <h3 class="mt-5 text-lg font-semibold">Credit & Debt</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Build credit from scratch, avoid predatory loans, and manage debt responsibly.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-elegant">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground"><i data-lucide="award" class="h-6 w-6"></i></div>
+          <h3 class="mt-5 text-lg font-semibold">Retirement Planning</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Navigate 401(k)s, IRAs, and Social Security — and plan for a secure future.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-elegant">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground"><i data-lucide="book-open" class="h-6 w-6"></i></div>
+          <h3 class="mt-5 text-lg font-semibold">Banking 101</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Open accounts, understand fees, send money home safely, and use online banking with confidence.</p>
+        </div>
+        <div class="rounded-2xl border border-border bg-card p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-elegant">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground"><i data-lucide="hand-coins" class="h-6 w-6"></i></div>
+          <h3 class="mt-5 text-lg font-semibold">Taxes & Filing</h3>
+          <p class="mt-2 text-sm text-muted-foreground">Demystify the IRS, file returns correctly, and claim every credit you're entitled to.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container mx-auto grid gap-10 px-4 lg:grid-cols-2 lg:items-center">
+      <div>
+        <h2 class="text-3xl font-bold sm:text-4xl">What To Expect At A Workshop</h2>
+        <p class="mt-4 text-muted-foreground">Our workshops are practical, friendly, and judgement-free. Whether you're brand new to America or have been here for years, you'll walk away with tools you can use the same day.</p>
+      </div>
+      <div class="rounded-2xl bg-card p-8 shadow-card">
+        <h3 class="text-xl font-semibold">Every workshop includes</h3>
+        <ul class="mt-5 space-y-3">
+          <li class="flex items-center gap-3 text-sm"><i data-lucide="check-circle-2" class="h-5 w-5 text-primary"></i> Sessions in Punjabi and English</li>
+          <li class="flex items-center gap-3 text-sm"><i data-lucide="check-circle-2" class="h-5 w-5 text-primary"></i> Easy-to-follow handouts you keep</li>
+          <li class="flex items-center gap-3 text-sm"><i data-lucide="check-circle-2" class="h-5 w-5 text-primary"></i> Real-world examples from our community</li>
+          <li class="flex items-center gap-3 text-sm"><i data-lucide="check-circle-2" class="h-5 w-5 text-primary"></i> Q&amp;A with our volunteers</li>
+          <li class="flex items-center gap-3 text-sm"><i data-lucide="check-circle-2" class="h-5 w-5 text-primary"></i> Optional one-on-one follow-up</li>
+          <li class="flex items-center gap-3 text-sm"><i data-lucide="check-circle-2" class="h-5 w-5 text-primary"></i> Snacks, chai, and a welcoming environment</li>
+        </ul>
+        <a href="contact.html" class="mt-7 inline-flex items-center gap-2 rounded-lg bg-gradient-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-card">
+          Request a workshop <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<div id="site-footer"></div>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="site.js"></script>
+</body>
+</html>
