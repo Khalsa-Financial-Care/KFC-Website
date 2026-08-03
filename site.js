@@ -6,6 +6,8 @@
     { href: 'index.html', label: 'Home' },
     { href: 'about.html', label: 'About' },
     { href: 'workshops.html', label: 'Workshops' },
+    { href: 'gallery.html', label: 'Gallery' },
+    { href: 'partnerships.html', label: 'Partnerships' },
     { href: 'founders.html', label: 'Founders' },
     { href: 'contact.html', label: 'Get Involved' },
   ];
@@ -61,6 +63,8 @@
         <ul style="margin:16px 0 0;padding:0;list-style:none;font-size:14px;display:grid;gap:8px;">
           <li><a href="about.html">About</a></li>
           <li><a href="workshops.html">Workshops</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="partnerships.html">Partnerships</a></li>
           <li><a href="founders.html">Founders</a></li>
           <li><a href="contact.html">Get Involved</a></li>
         </ul>
